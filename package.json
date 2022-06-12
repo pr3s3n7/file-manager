@@ -2,9 +2,10 @@
   "name": "file-manager",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
-    "--": "npm run index.js"
+    "start": "node src/index.js"
   },
   "author": "",
   "license": "ISC"
